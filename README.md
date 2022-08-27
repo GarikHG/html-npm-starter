@@ -1,11 +1,11 @@
 Create new Bootstrap-powered npm projects in no time.
 
 ## About
-`html-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects. 
+`html-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects.
 You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v5.2 with plans to update.
 
 ## Repo template
-Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage, 
+Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage,
 click the `Use this template` button.
 
 ## What's included
@@ -59,5 +59,5 @@ The following npm scripts are available to you in this starter repo. With the ex
 | `test`        | Runs `css-lint` and `css`, in sequential order                                      |
 
 ## Copyright
-© [@garikhg](https://github.com/garikhg) 2022 and licensed MIT.
+© [@garikhg](https://github.com/garikhg) 2022 and [licensed MIT](LICENSE.md).
 
