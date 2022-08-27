@@ -16,10 +16,9 @@ click the `Use this template` button.
 * Example stylesheet (`scss/starter.scss`) highlighting two ways to include and customize Bootstrap.
 * Example JavaScript file (`assets/js/starter.js`) showing how to import all of Bootstrap, or just the parts you need.
 
-## Usage
+## Usage npm
 Be sure to have [Node.js](https://nodejs.org/en/) installed before proceeding.
 
-****
 ``` shell
 # Clone the repo:
 https://github.com/garikhg/html-npm-starter.git
@@ -44,4 +43,21 @@ npm start
 For the most straightforward development, open two Terminal tabs to execute npm run server and npm run watch at the same time.
 
 Open http://localhost:3000 to see the page in action.
+
+## Scripts
+The following npm scripts are available to you in this starter repo. With the exception of npm start and npm test, the remaining scripts can be run from your command line with npm run script name, for ex. `npm run server`.
+
+| Script name   | Description                                                                         |
+|---------------|:------------------------------------------------------------------------------------|
+| `server`      | Starts a local server (http://localhost:3000) for development                       |
+| `watch`       | Automatically recompiles CSS as it watches the scss directory for changes           |
+| `css`         | Runs css-compile and css-prefix                                                     |
+| `css-compile` | Compiles source Sass into CSS                                                       |
+| `css-lint`    | Runs [Stylelint](https://stylelint.io/) against source Sass for code quality        |
+| `css-prefix`  | Runs [Autoprefixer](https://github.com/postcss/autoprefixer) on the compiled CSS    |
+| `css-purge`   | Runs [PurgeCSS](https://purgecss.com/) to remove CSS that is unused by `index.html` |
+| `test`        | Runs `css-lint` and `css`, in sequential order                                      |
+
+## Copyright
+© [@garikhg](https://github.com/garikhg) 2022 and licensed MIT.
 
