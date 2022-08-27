@@ -1,0 +1,9 @@
+# OS or Editor folders
+._*
+.cache
+.DS_Store
+.idea
+/.vscode/
+
+# Folders to ignore
+/node_modules/
