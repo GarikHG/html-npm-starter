@@ -23,7 +23,7 @@ Be sure to have [Node.js](https://nodejs.org/en/) installed before proceeding.
 ``` shell
 # Clone the repo:
 https://github.com/garikhg/html-npm-starter.git
-cd bootstrap-npm-starter
+cd html-npm-starter
 
 # Install dependencies:
 npm i
